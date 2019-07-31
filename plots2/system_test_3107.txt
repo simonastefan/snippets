@@ -1,0 +1,89 @@
+$ rails test:system
+I, [2019-07-31T17:09:56.069607 #6608]  INFO -- sentry: ** [Raven] Raven 2.9.0 configured not to capture errors: Not configured to send/capture in environment 'test'
+[Coveralls] Set up the SimpleCov formatter.
+[Coveralls] Using SimpleCov's default settings.
+Emptying /mnt/Pluto/Work/GProjects/plots2/test/reports
+You have selected Sha512 as your authlogic crypto provider. This algorithm
+does not have any practical known attacks against it. However, there are
+better choices.
+
+Authlogic has no plans yet to deprecate this crypto provider. However,
+we recommend transitioning to a more secure, adaptive hashing algorithm,
+like scrypt. Adaptive algorithms are designed to slow down brute force
+attacks, and over time the iteration count can be increased to make it
+slower, so it remains resistant to brute-force search attacks even in
+the face of increasing computation power.
+
+Use the transition_from_crypto_providers option to make the transition
+painless for your users.
+Started with run options --seed 5669
+
+/home/gorgona/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.3/lib/active_record/associations/builder/collection_association.rb:27: warning: already initialized constant TagNodeAssociationExtension
+/home/gorgona/.rvm/gems/ruby-2.4.4/gems/activerecord-5.2.3/lib/active_record/associations/builder/collection_association.rb:27: warning: previous definition of TagNodeAssociationExtension was here
+Capybara starting Puma...
+* Version 4.0.1 , codename: 4 Fast 4 Furious
+* Min threads: 0, max threads: 4
+* Listening on tcp://127.0.0.1:33075
+[Screenshot]: tmp/screenshots/test_viewing_the_dashboard.png
+[Screenshot]: tmp/screenshots/test_viewing_the_dashboard.png
+[Screenshot]: tmp/screenshots/test_blog.png                                                                                                               ] 4% Time: 00:00:05,  ETA: 00:02:21
+[Screenshot]: tmp/screenshots/test_blog_page_with_location_modal.png                                                                                      ] 8% Time: 00:00:05,  ETA: 00:01:08
+[Screenshot]: tmp/screenshots/test_comments.png                                                                                                          ] 12% Time: 00:00:07,  ETA: 00:01:00
+[Screenshot]: tmp/screenshots/test_front.png                                                                                                             ] 16% Time: 00:00:08,  ETA: 00:00:44
+[Screenshot]: tmp/screenshots/test_login.png                                                                                                             ] 20% Time: 00:00:08,  ETA: 00:00:34
+[Screenshot]: tmp/screenshots/test_methods.png                                                                                                           ] 24% Time: 00:00:08,  ETA: 00:00:28
+[Screenshot]: tmp/screenshots/test_people.png====                                                                                                        ] 28% Time: 00:00:08,  ETA: 00:00:23
+[Screenshot]: tmp/screenshots/test_question_page.png===                                                                                                  ] 32% Time: 00:00:09,  ETA: 00:00:20
+[Screenshot]: tmp/screenshots/test_questions.png============                                                                                             ] 36% Time: 00:00:10,  ETA: 00:00:18
+[Screenshot]: tmp/screenshots/test_questions_shadow.png============                                                                                      ] 40% Time: 00:00:10,  ETA: 00:00:16
+[Screenshot]: tmp/screenshots/test_signup.png===========================                                                                                 ] 44% Time: 00:00:10,  ETA: 00:00:14
+"test"2: [====================================================================                                                                           ] 48% Time: 00:00:10,  ETA: 00:00:12
+2
+"awesome"
+2
+"spectrometer"
+1
+"activity:spectrometer"
+1
+"spam"
+1
+"chapter"
+1
+"question:spectrometer"
+4
+"lat:71.0"
+1
+"lon:52.0"
+1
+"blog"
+1
+"blog-featured"
+1
+"place"
+1
+"test_lego"
+1
+"activity:coding"
+2
+"upgrade:latest"
+2
+"activities:spectrometer"
+1
+"with:testuser"
+1
+[Screenshot]: tmp/screenshots/test_stats.png
+[Screenshot]: tmp/screenshots/test_tag_by_author_page.png===========================                                                                     ] 52% Time: 00:00:11,  ETA: 00:00:11
+[Screenshot]: tmp/screenshots/test_tag_page.png===========================================                                                               ] 56% Time: 00:00:11,  ETA: 00:00:09
+[Screenshot]: tmp/screenshots/test_tags.png====================================================                                                          ] 60% Time: 00:00:11,  ETA: 00:00:08
+[Screenshot]: tmp/screenshots/test_wiki.png==========================================================                                                    ] 64% Time: 00:00:12,  ETA: 00:00:07
+[Screenshot]: tmp/screenshots/test_wiki_page_with_inline_grids.png=========================================                                              ] 68% Time: 00:00:12,  ETA: 00:00:06
+[Screenshot]: tmp/screenshots/test_front_page_with_navbar_search_autocomplete.png=================================================                       ] 84% Time: 00:01:16,  ETA: 00:00:15
+[Screenshot]: tmp/screenshots/test_viewing_question_post.png=================================================================================            ] 92% Time: 00:01:21,  ETA: 00:00:08
+[Screenshot]: tmp/screenshots/test_viewing_the_dropdown_menu.png===================================================================================      ] 96% Time: 00:01:23,  ETA: 00:00:04
+[Screenshot]: tmp/screenshots/test_viewing_the_dropdown_menu.png
+  25/25: [==============================================================================================================================================] 100% Time: 00:01:23, Time: 00:01:23
+
+Finished in 83.72688s
+25 tests, 14 assertions, 0 failures, 0 errors, 0 skips
+Writing XML reports to /mnt/Pluto/Work/GProjects/plots2/test/reports
+[Coveralls] Outside the CI environment, not sending data.
